@@ -1,0 +1,1 @@
+var e=`/OHBM_2026_oral/assets/qr_oral-BWB-tmpt.png`;export{e as t};

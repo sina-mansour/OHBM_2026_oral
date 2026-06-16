@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:registry.npmjs.org)",
+      "Bash(pnpm -v)",
+      "Bash(npm -v)",
+      "Bash(cp -r /mnt/local_storage/Research/Original_Work/Talks/2026/BGD_Lab/slides/bgd_lab_2026/theme /mnt/local_storage/Research/Original_Work/Conference/2026/OHBM/Oral/Oral_slides/theme)",
+      "Bash(cp -r /mnt/local_storage/Research/Original_Work/Talks/2026/BGD_Lab/slides/bgd_lab_2026/components /mnt/local_storage/Research/Original_Work/Conference/2026/OHBM/Oral/Oral_slides/components)",
+      "Bash(cp -r /mnt/local_storage/Research/Original_Work/Talks/2026/BGD_Lab/slides/bgd_lab_2026/public /mnt/local_storage/Research/Original_Work/Conference/2026/OHBM/Oral/Oral_slides/public)",
+      "Bash(cp -r /mnt/local_storage/Research/Original_Work/Talks/2026/BGD_Lab/slides/bgd_lab_2026/snippets /mnt/local_storage/Research/Original_Work/Conference/2026/OHBM/Oral/Oral_slides/snippets)",
+      "Bash(cp -r /mnt/local_storage/Research/Original_Work/Talks/2026/BGD_Lab/slides/bgd_lab_2026/assets /mnt/local_storage/Research/Original_Work/Conference/2026/OHBM/Oral/Oral_slides/assets)",
+      "Bash(python3 -c \"from PIL import Image; im=Image.open\\('assets/LOGO.png'\\); print\\('size', im.size, 'mode', im.mode\\)\")",
+      "Bash(python3 -c \"import PIL; print\\('PIL', PIL.__version__\\)\")",
+      "Bash(python3 -c ' *)"
+    ]
+  }
+}

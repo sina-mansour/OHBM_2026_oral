@@ -1,0 +1,22 @@
+{
+  "name": "ohbm_2026_oral",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "slidev build",
+    "dev": "slidev --open",
+    "export": "slidev export",
+    "deploy": "slidev build --base /OHBM_2026_oral/ && touch dist/.nojekyll && gh-pages -d dist --dotfiles"
+  },
+  "dependencies": {
+    "@slidev/cli": "^52.15.1",
+    "@slidev/theme-default": "latest",
+    "@slidev/theme-seriph": "latest",
+    "@vueuse/motion": "^2.2.6",
+    "vue": "^3.5.33"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0",
+    "qrcode": "^1.5.4"
+  }
+}

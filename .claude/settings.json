@@ -1,0 +1,13 @@
+{
+  "sandbox": {
+    "filesystem": {
+      "allowWrite": [
+        "/mnt/local_storage/Research/Original_Work/Conference/2026/OHBM/Oral/Oral_slides/"
+      ],
+      "allowRead": [
+        "/mnt/local_storage/Research/Original_Work/Talks/2026/BGD_Lab/",
+        "/mnt/local_storage/Research/Original_Work/Conference/2026/OHBM/Poster/"
+      ]
+    }
+  }
+}

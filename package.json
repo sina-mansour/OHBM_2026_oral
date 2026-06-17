@@ -3,7 +3,7 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "build": "slidev build",
+    "build": "slidev build --base /OHBM_2026_oral/",
     "dev": "slidev --open",
     "export": "slidev export",
     "deploy": "slidev build --base /OHBM_2026_oral/ && touch dist/.nojekyll && gh-pages -d dist --dotfiles"

@@ -16,6 +16,10 @@ transitionDuration: 2000
 mdc: true
 katex: true
 favicon: "/favicon.ico"
+export:
+  withClicks: true
+  scale: 2
+  wait: 2000
 ---
 
 <h1 class="text-3xl font-700 mt-3" style="font-size: 3.2rem; line-height: 1.1;">Mapping Organizational Gradients of Cortical Growth</h1>
@@ -125,7 +129,7 @@ transition: slow-fade
 
 🧭 Background & gap
 
-<div class="w-[55%]">
+<div class="w-[52%]">
   <ul class="text-5" v-motion:initial="{ x: -20 }":enter="{ x: -20 }">
     <BulletItem v-click="1" :hide-arrow-at="3">
       The <b>group-average thickness map</b> mirrors established cortical organisational hierarchies

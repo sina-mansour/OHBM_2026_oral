@@ -1,0 +1,16 @@
+diff --git a/logic/slides.ts b/logic/slides.ts
+index cb156a18af745ff4c2028bc6515683ec2e45c277..002e806ea338ed7d0fcaa7fa52dee861fdc8ace1 100644
+--- a/logic/slides.ts
++++ b/logic/slides.ts
+@@ -21,7 +21,10 @@ export function getSlidePath(
+     route = getSlide(route)!
+   const no = route.meta.slide?.frontmatter.routeAlias ?? route.no
+   const path = exporting ? `export/${no}` : presenter ? `presenter/${no}` : `${no}`
+-  return `${import.meta.env.BASE_URL}${path}`
++  // Patched: return a base-less, router-relative path. The router history already
++  // carries BASE_URL, so prepending it here double-applied the base on navigation
++  // (e.g. /OHBM_2026_oral/OHBM_2026_oral/2) when feeding router.push().
++  return `/${path}`
+ }
+ 
+ export function useIsSlideActive() {

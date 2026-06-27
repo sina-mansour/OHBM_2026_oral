@@ -11,6 +11,7 @@ info: |
 class: text-center
 drawings:
   persist: false
+routerMode: hash
 transition: slide-left
 transitionDuration: 2000
 mdc: true
